@@ -6,7 +6,7 @@ const path = require("path");
 
 // connection of the database
 const mongoose = require("mongoose");
-const db = 'mongodb+srv://Pankaj:07Jan1975@cluster0.dormclv.mongodb.net/applications1?retryWrites=true&w=majority'
+const db = 'mongodb+srv://Pankaj:07Jan1975@cluster0.dormclv.mongodb.net/application?retryWrites=true&w=majority'
 
 app.use(express.static(path.join(__dirname, "/public")))
 
